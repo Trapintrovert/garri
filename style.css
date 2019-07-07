@@ -1,0 +1,289 @@
+/*
+  Project: Wara Garri
+  Author: Trap Introvert
+  github: https://github.com/Trapintrovert
+
+ */
+
+ /* HOME PAGE STYLE */
+
+@media (min-width:320px) {
+  #about{
+    padding-top: 580px;
+  }
+
+  #about img{
+    height: 200px;
+    width: auto;
+    margin: 120px 0px 0px 40px;
+    order: 1;
+    padding-bottom: 30px;
+  }
+  #about .order-one{
+    order: 2;
+  }
+  #about .order-two{
+    order: 1;
+  }
+  #how img{
+    padding: 15px 0px 14px 120px;
+  }
+  #how p{
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+  #testimonial .owl-item img{
+    margin: 4px 0px 4px 32%;
+  }
+}
+
+@media (min-width:360px) {
+  #about{
+    padding-top: 500px;
+  }
+  #about img{
+    height: 250px;
+    width: auto;
+    margin: 120px 0px 0px 40px;
+    padding-bottom: 30px;
+  }
+  #about .order-one{
+    order: 2;
+  }
+  #about .order-two{
+    order: 1;
+  }
+
+  #how img{
+    padding: 15px 0px 14px 140px;
+  }
+  #how p{
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  #testimonial .owl-item img{
+    margin: 4px 0px 4px 35%;
+  }
+
+}
+
+@media (min-width:411px){
+  #about{
+    padding-top: 430px;
+  }
+  #about img{
+    height: 250px;
+    width: auto;
+    margin: 120px 0px 0px 40px;
+    padding-bottom: 30px;
+  }
+  #about .order-one{
+    order: 2;
+  }
+  #about .order-two{
+    order: 1;
+  }
+
+  #how img{
+    padding: 15px 0px 14px 160px;
+  }
+  #how p{
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  #testimonial .owl-item img{
+    margin: 4px 0px 4px 37%;
+  }
+}
+
+@media (min-width:575px) {
+
+  #about{
+    padding-top: 380px;
+  }
+  #about .order-one{
+    order: 2;
+  }
+  #about .order-two{
+    order: 1;
+  }
+
+}
+
+/* Medium devices (tablets) */
+@media (min-width:768px) {
+  #about{
+    padding-top: 100px;
+  }
+  #about img{
+    height: 250px;
+    width: 250px;
+    margin: 20px 0px 0px 20px;
+    padding-bottom: 30px;
+  }
+
+  #about .order-one{
+    order: 1;
+  }
+  #about .order-two{
+    order: 2;
+  }
+  #how img{
+    padding: 15px 0px 14px 80px;
+  }
+  #how p{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  #testimonial .owl-item img{
+    margin: 4px 0px 4px 43%;
+  }
+}
+
+
+/* Large devices (desktops) */
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1000px) {
+  #how img{
+    padding: 15px 0px 14px 120px;
+  }
+  #how p{
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  #testimonial .owl-item img{
+    margin: 4px 0px 4px 45%;
+  }
+}
+
+/* Extra large devices (large desktops) */
+@media (min-width:1200px) {
+
+  #about{
+    padding-top: 100px;
+  }
+  #about .about-left-content{
+    padding-left: 50px;
+  }
+  #about img{
+    height: 250px;
+    width: 350px;
+    margin: 10px 0px 0px 80px;
+  }
+  #how img{
+    padding: 15px 0px 14px 145px;
+  }
+  #how p{
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  #price .price-left-content{
+    padding: 0px 100px 0px 40px;
+  }
+  #testimonial .owl-item img{
+    margin: 4px 0px 4px 45%;
+  }
+  #testimonial .owl-item p{
+    width: 588px;
+    margin: 4px 0px 14px 25%;
+  }
+}
+
+
+
+body{
+  font-family: lato;
+}
+h3{
+  font-weight: bold;
+  font-size: 40px;
+  color: #787676;
+  text-align: center;
+}
+#header{
+  background-image: url('images/header_bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+}
+#header .header-right-content{
+  margin-top: 160px;
+}
+#header  h3{
+  font-size: 44px;
+  font-weight: bold;
+  line-height: 58px;
+}
+
+#header .card{
+  margin-top: 60px;
+  border-radius: 10px;
+}
+#header .btn-default{
+  background: #B28061;
+  border-radius: 5px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 136.5%;
+}
+
+#header .form-control{
+  background: #F5F5F5;
+}
+
+#how{
+  padding-top: 180px;
+}
+#how h3{
+  text-align: center;
+}
+
+#how h4{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  color: #000;
+}
+#price{
+  margin: 40px 0px 50px 0px;
+}
+#price .card{
+  box-shadow: 0px 1px 10px rgba(120, 118, 118, 0.25);
+  border-radius: 10px;
+}
+#price .first{
+  background-color: #B28061;
+  color: #fff;
+}
+
+#price .second{
+  color:#B28061;
+}
+#testimonial{
+  padding-bottom: 50px;
+}
+
+#testimonial .owl-item img{
+  width: 100px !important;
+  height: 100px !important;
+}
+#contact{
+background: #B28061;
+}
+
+footer p{
+  color: #B28061;
+  font-size: 24px;
+  line-height: 29px;
+  font-size: 24px;
+  line-height: 29px;
+}
