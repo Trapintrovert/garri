@@ -195,6 +195,9 @@
 }
 
 
+html {
+  scroll-behavior: smooth;
+}
 
 body{
   font-family: lato;
@@ -212,7 +215,7 @@ h3{
   background-size: cover;
   height: 700px;
 }
-#header .header-right-content{
+#header .header-left-content{
   margin-top: 160px;
 }
 #header  h3{

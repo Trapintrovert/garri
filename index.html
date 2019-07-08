@@ -57,56 +57,58 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <div class="header-right-content">
+        <div class="header-left-content">
           <h3 class="text-white mb-4 text-left">Get your package delivered to your door-step</h3>
           <p class=" text-white text-justify">Here’s the fastest way to check the status of your shipment. No need to call Customer Service – our online results give you real-time, detailed progress as your shipment speeds through the our network.</p>
         </div>
       </div>
       <div class="col-md-6">
-        <div class="card bg-white">
-          <form id="order" action="https://formspree.io/inboxadeniyi@gmail.com" method="POST" class="m-5">
-            <input type="hidden" name="_subject" value="Wa Ra Garri New Order">
-            <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" class="form-control form-control" placeholder="Enter Name">
-                <div class="invalid-feedback">
-                  Enter between 2 to 20 characters.
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="name">Email</label>
-                <input type="email" id="email" name="_replyto" class="form-control form-control" placeholder="Enter Name">
-                <div class="invalid-feedback">
-                  Enter a correct email
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="phone">Phone Number</label>
-                <input type="tel" id="phone" name="phone" class="form-control" placeholder="Phone Number" required>
-                <div class="invalid-feedback">
-                  Enter your phone
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="address">Address</label>
-                <input type="text" id="address" name="address" class="form-control form-control" placeholder="Enter Your Address" required>
-                <div class="invalid-feedback">
-                  Enter your delivery address
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="price">Price</label>
-                <select id="pricee" class="form-control" name="price" required>
-                  <option></option>
-                  <option>1kg = #500</option>
-                  <option>2kg = #950</option>
-                </select>
-                <div class="invalid-feedback">
-                  Choose your desired price
-                </div>
-            </div>
-            <input type="submit" value="Order Now" class="btn btn-default btn-block">
-          </form>
+        <div class="header-right-content">
+          <div class="card bg-white">
+            <form id="order" action="https://formspree.io/inboxadeniyi@gmail.com" method="POST" class="m-5">
+              <input type="hidden" name="_subject" value="Wa Ra Garri New Order">
+              <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" class="form-control form-control" placeholder="Enter Name">
+                  <div class="invalid-feedback">
+                    Enter between 2 to 20 characters.
+                  </div>
+              </div>
+              <div class="form-group">
+                  <label for="name">Email</label>
+                  <input type="email" id="email" name="_replyto" class="form-control form-control" placeholder="Enter Name">
+                  <div class="invalid-feedback">
+                    Enter a correct email
+                  </div>
+              </div>
+              <div class="form-group">
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" id="phone" name="phone" class="form-control" placeholder="Phone Number" required>
+                  <div class="invalid-feedback">
+                    Enter your phone
+                  </div>
+              </div>
+              <div class="form-group">
+                  <label for="address">Address</label>
+                  <input type="text" id="address" name="address" class="form-control form-control" placeholder="Enter Your Address" required>
+                  <div class="invalid-feedback">
+                    Enter your delivery address
+                  </div>
+              </div>
+              <div class="form-group">
+                  <label for="price">Price</label>
+                  <select id="pricee" class="form-control" name="price" required>
+                    <option></option>
+                    <option>1kg = #500</option>
+                    <option>2kg = #950</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Choose your desired price
+                  </div>
+              </div>
+              <input type="submit" value="Order Now" class="btn btn-default btn-block">
+            </form>
+          </div>
         </div>
       </div>
     </div>
@@ -123,7 +125,9 @@
         </div>
       </div>
       <div class="col-md-6 order-two">
-        <img src="images/about.png" alt="About Image">
+        <div class="about-right-content">
+          <img src="images/about.png" alt="About Image">
+        </div>
       </div>
     </div>
   </div>
@@ -186,7 +190,7 @@
             </div>
           </div>
         </div>
-        <div class="card mt-3">
+        <div class="card mt-3 second">
           <div class="d-flex flex-row justify-content-center row-hl second">
             <div class="p-4 item-hl">
               <h5 class="text-center">Quantity</h5>
@@ -300,7 +304,7 @@
   </div>
 </section>
 
-<footer class="py-2">
+<footer class="py-2 footer">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -313,6 +317,7 @@
    <script src="js/jquery-2.1.4.min.js"></script>
    <script src="js/owl.carousel.min.js"></script>
    <script src="js/popper.min.js"></script>
+   <script src="js/scrollreveal.min.js"></script>
    <script src="js/bootstrap.min.js"></script>
    <script src="js/validation.js"></script>
    <script>
@@ -354,6 +359,60 @@
         });
 
     });
+  </script>
+  <script>
+    window.sr = ScrollReveal();
+    sr.reveal('.navbar', {
+      duration: 3000,
+      origin:'bottom'
+    });
+    sr.reveal('.header-left-content', {
+      duration: 2000,
+      origin:'top',
+      distance: '300px'
+    });
+    sr.reveal('.header-right-content', {
+      duration: 2000,
+      origin:'right',
+      distance: '300px'
+    });
+    sr.reveal('.about-left-content', {
+      duration: 2000,
+      origin:'left',
+      distance: '300px'
+    });
+    sr.reveal('.about-right-content', {
+      duration: 2000,
+      origin:'right',
+      distance: '300px'
+    });
+    sr.reveal('#how div', {
+      duration: 2000,
+      origin:'top',
+      distance: '300px'
+    });
+    sr.reveal('.first', {
+      duration: 2000,
+      origin:'top',
+      distance: '300px'
+    });
+    sr.reveal('.second', {
+      duration: 2000,
+      origin:'bottom',
+      distance: '300px'
+    });
+    sr.reveal('#testimonial', {
+      duration: 2000,
+      origin:'bottom',
+      distance: '300px'
+    });
+
+    sr.reveal('.footer', {
+      duration: 2000,
+      origin:'left',
+      distance: '300px'
+    });
+
   </script>
 
 </body>
