@@ -277,13 +277,28 @@ h3{
   height: 100px !important;
 }
 #contact{
-background: #B28061;
+  background-image: url('images/contact.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: auto;
 }
-
+#contact a{
+  text-decoration: none;
+  color: #fff;
+}
 footer p{
   color: #B28061;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 29px;
-  font-size: 24px;
   line-height: 29px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #B28061;
+}
+footer a:hover {
+  text-decoration: none;
+  color: #B28061;
 }
